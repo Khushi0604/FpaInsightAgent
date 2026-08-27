@@ -6,11 +6,14 @@ Ask natural language questions about your business metrics and get accurate, dat
 
 ## Screenshots
 
-> Add your screenshots to a `screenshots/` folder and they'll appear here.
-
+### KPI Dashboard
 ![KPI Dashboard](screenshots/kpi_dashboard.png)
+
+### Churn Analysis
 ![Churn Analysis](screenshots/churn_analysis.png)
-![Multi-turn Memory](screenshots/multi_turn.png)
+
+### Multi-turn Memory
+![Multi-turn Memory](screenshots/active_customers.png)
 
 ## Architecture
 
