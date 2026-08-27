@@ -12,6 +12,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
+import traceback
 
 load_dotenv()
 
@@ -61,7 +62,10 @@ def chat_endpoint(req: ChatRequest):
     except ValueError as e:
         raise HTTPException(status_code=500, detail=str(e))
     except Exception as e:
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Agent error: {e}")
+    #except Exception as e:
+     #   raise HTTPException(status_code=500, detail=f"Agent error: {e}")
 
 
 @app.post("/clear")
