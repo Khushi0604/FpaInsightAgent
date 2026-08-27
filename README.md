@@ -43,7 +43,7 @@ User Query
     ↓
 RAG Retrieval (FAISS + Sentence Transformers)
     ↓
-LLM (Groq llama3-70b) with context + conversation memory
+LLM (Groq - GPT-OSS-20B) with context + conversation memory
     ↓
 Tool call needed? ──Yes──→ KPI Tool → back to LLM
          ↓ No
@@ -118,7 +118,7 @@ Replace any CSV in `data/` with your real data — keep the same column names an
 
 - **LangChain + LangGraph** — agentic workflow with tool-calling and multi-turn memory
 - **FAISS + Sentence Transformers** — vector search for RAG
-- **Groq (llama3-70b)** — fast LLM inference
+- **Groq (GPT-OSS-20B)** — fast LLM inference
 - **FastAPI** — production-style REST backend
 - **Streamlit** — interactive frontend
 - **Pandas + NumPy** — data processing
