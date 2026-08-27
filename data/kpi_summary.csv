@@ -1,0 +1,13 @@
+metric,value,unit
+Current MRR,196421.58,USD
+ARR,2357058.96,USD
+MoM MRR Growth,4.25,%
+New MRR (latest mo),8542.45,USD
+Churned MRR,2216.84,USD
+Total Customers,200.0,count
+Active Customers,164.0,count
+Churn Rate,18.0,%
+Avg CAC,1211.4,USD
+Avg MRR per Customer,342.65,USD
+LTV (est.),1903.61,USD
+LTV:CAC Ratio,1.57,x
