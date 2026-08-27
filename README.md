@@ -12,7 +12,7 @@ Ask natural language questions about your business metrics and get accurate, dat
 ### Churn Analysis
 ![Churn Analysis](screenshots/churn_analysis.png)
 
-### Multi-turn Memory
+### Active Customers
 ![Multi-turn Memory](screenshots/active_customers.png)
 
 ## Architecture
